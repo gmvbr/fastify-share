@@ -39,6 +39,7 @@ interface Util {
 ### JS
 ```javascript
 const fastify = require('fastify');
+const fastifyShare = require('@gmvbr/fastify-share')
 
 const app = fastify();
 
@@ -58,12 +59,12 @@ app.register(async () => {
 
 ```typescript
 import fastify from 'fastify'
-import fastifyShare from 'fastify-share'
+import fastifyShare from '@gmvbr/fastify-share'
 
 //
 // define the types of common objects
 //
-declare namespace 'fastify-share' {
+declare namespace '@gmvbr/fastify-share' {
 
     interface Singleton {
         x: number;
