@@ -1,4 +1,5 @@
 # fastify-share
+![Node.js CI](https://github.com/gmvbr/fastify-share/workflows/Node.js%20CI/badge.svg)
 ![Node.js Package](https://github.com/gmvbr/fastify-share/workflows/Node.js%20Package/badge.svg)
 
 share common objects
