@@ -1,0 +1,33 @@
+{
+  "name": "fastify-share",
+  "version": "1.0.0",
+  "description": "share common objects",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "ava",
+    "coverage": "nyc ava",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmvbr/fastify-share.git"
+  },
+  "keywords": [],
+  "author": "gmvbr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmvbr/fastify-share/issues"
+  },
+  "homepage": "https://github.com/gmvbr/fastify-share#readme",
+  "dependencies": {
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "ava": "^3.14.0",
+    "fastify": "^3.9.1",
+    "nyc": "^15.1.0",
+    "standard": "^16.0.3"
+  }
+}
