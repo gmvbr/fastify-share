@@ -1,4 +1,6 @@
 # fastify-share
+![Node.js Package](https://github.com/gmvbr/fastify-share/workflows/Node.js%20Package/badge.svg)
+
 share common objects
 
 # Decorate
