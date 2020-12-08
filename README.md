@@ -64,7 +64,7 @@ import fastifyShare from '@gmvbr/fastify-share'
 //
 // define the types of common objects
 //
-declare namespace '@gmvbr/fastify-share' {
+declare module '@gmvbr/fastify-share' {
 
     interface Singleton {
         x: number;
